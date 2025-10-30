@@ -1,0 +1,79 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+pip-log.txt
+.python-version
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing / Coverage / Type checking
+.pytest_cache/
+.coverage*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.dmypy.json
+
+# Logs / misc
+*.log
+*.tmp
+*.bak
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+.jupyter/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Project specific ---
+# C gerado pelo compilador (saída)
+out/**
+src/out/**
+# mantenha um placeholder se quiser a pasta versionada
+!out/.gitkeep
+!src/out/.gitkeep
+
+# C/C++/binários gerados localmente
+*.o
+*.obj
+*.out
+a.out
+*.exe
+
+# Cache do Nuitka/Cython (se um dia usar)
+__pycache__/
+
+# Não versionar arquivos temporários do VS Code e backup
+*.code-workspace
+*.orig
+*.rej
